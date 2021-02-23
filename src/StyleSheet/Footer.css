@@ -1,0 +1,17 @@
+#footer{
+    display: flex;
+    left: 0;
+    bottom: 0;
+    padding-left: 20px;
+    background-color: moccasin;
+}
+
+#left-footer{
+    width: 50%;
+}
+
+#right-footer{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}

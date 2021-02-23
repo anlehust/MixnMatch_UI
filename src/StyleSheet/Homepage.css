@@ -1,0 +1,41 @@
+.header-bar{
+    display: flex;
+    width: 100%;
+}
+
+.search-bar{
+    flex-grow: 4;
+    border-radius: 10;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+}
+#logo-search{
+    width: 16px;
+    height: 16px;
+}
+#searchbox {
+    height: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 80%;
+    border-width: 0px;
+}
+
+#authen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1
+}
+
+#authen a {
+    margin: 0px 10px 0px 10px;
+    text-decoration:none;
+    color: blue;
+}
+
+#logo{
+    flex-grow: 1;
+}
+

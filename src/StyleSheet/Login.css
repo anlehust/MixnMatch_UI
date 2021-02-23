@@ -1,0 +1,76 @@
+#main-container
+{   
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: thistle; */
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-recruitment-background-banner-image_159061.jpg');
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 460px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+input {
+    height: 1.5rem;
+    width: 70%;
+    margin: 5px;
+    border-radius: 10px;
+    border:1px solid #dddfe2;
+    padding: 10px;
+}
+
+.text-blue {
+    color: #1877f2;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+#login-btn {
+    margin-top: 20px;
+    width: 70%;
+    background-color: #1877f2;
+}
+
+#register-btn {
+    background-color: #36a420;
+    width: 40%;
+}
+
+.btn {
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+a {
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+#line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    width: 80%;
+    text-align: center;
+}
